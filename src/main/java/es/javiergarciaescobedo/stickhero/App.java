@@ -224,6 +224,8 @@ public class App extends Application {
                         timelineCorrePersonaje.stop();
                         gameOver = true;
                         labelGameover.setVisible(true);
+                        // Volver a nivel de dificultad inicial
+                        barraVelocidadCrece = BARRA_VELOCIDAD_GIRO;
                     }
                 } else { // LA BARRA TIENE TAMAÑO ADECUADO
                     // Si el personaje ha llegado al siguiente borde 
