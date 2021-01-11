@@ -311,6 +311,8 @@ public class App extends Application {
                 // Recolocar personaje en el borde de la plataforma
                 groupPersonaje.setLayoutY(posYPersonaje);
                 groupPersonaje.setLayoutX(posXPersonaje);
+                incYPersonaje = 0;
+                incXPersonaje = 0;
                 // Reiniciar última barra
                 tamanoBarra = BARRA_TAM_INICIO;
                 rectBarra.setHeight(tamanoBarra);
