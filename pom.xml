@@ -13,6 +13,11 @@
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>13</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
             <version>13</version>
             <classifier>win</classifier>
@@ -66,7 +71,7 @@
             <artifactId>javafx-graphics</artifactId>
             <version>13</version>
             <classifier>linux</classifier>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
@@ -80,7 +85,7 @@
                 </configuration>
             </plugin>
             
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.2.4</version>
@@ -100,7 +105,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.openjfx</groupId>
